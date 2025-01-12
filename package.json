@@ -1,0 +1,20 @@
+{
+  "name": "@ittlr/test_release-it",
+  "version": "0.0.1",
+  "description": "test release it",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "scripts": {
+    "release": "release-it",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "release-it": "^18.1.1",
+    "typescript": "^5.7.3"
+  }
+}
